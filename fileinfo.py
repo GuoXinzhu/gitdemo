@@ -34,3 +34,5 @@ try:
 except FileNotFoundError as e:
     print(e)
     sys.exit()
+    
+file_stats = os.stat(file_name)
